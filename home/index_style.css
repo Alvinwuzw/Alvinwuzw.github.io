@@ -1,0 +1,25 @@
+body {
+	background-color: seashell;
+}
+
+/* Add a black background color to the top navigation */
+.nav {
+  background-color: seashell;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  float: none;
+  color: #A9A9A9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.name {
+    text-align: center;
+    color: #000000;
+}
