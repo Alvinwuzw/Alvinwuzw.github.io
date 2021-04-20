@@ -11,6 +11,7 @@ body {
 
 /* Style the links inside the navigation bar */
 .nav a {
+  font-family: "Lucida Console", "Courier New", monospace;
   float: none;
   color: #A9A9A9;
   text-align: center;
@@ -20,6 +21,20 @@ body {
 }
 
 .name {
-    text-align: center;
-    color: #000000;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 200%;
+  text-align: center;
+  color: #000000;
+}
+
+.profile {
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro p {
+  text-align: center;
 }
