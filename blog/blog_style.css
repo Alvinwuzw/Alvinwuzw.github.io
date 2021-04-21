@@ -1,0 +1,29 @@
+.post {
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+.post .post-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.post-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+}
