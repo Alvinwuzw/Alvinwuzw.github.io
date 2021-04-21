@@ -11,15 +11,37 @@ body {
 
 /* Style the links inside the navigation bar */
 .nav a {
+  font-family: "Lucida Console", "Courier New", monospace;
   float: none;
-  color: #A9A9A9;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 125%;
 }
 
 .name {
-    text-align: center;
-    color: #000000;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 200%;
+  text-align: center;
+  color: #000000;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  max-width: 30%;
+  height: auto;
+}
+
+.intro {
+  margin-top:15px;
+  text-align: center;
+}
+
+.intro p {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
 }
