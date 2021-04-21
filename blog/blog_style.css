@@ -2,8 +2,14 @@ body {
     background-color: seashell;
 }
 
+.posts {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+}
+
 .post {
-    text-align: center;
     display: flex;
     width: 550px;
     flex-direction: column;
@@ -21,7 +27,7 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
-.post-image {
+.post .post-image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +35,7 @@ body {
     margin-bottom: 5px;
 }
 
-.post-image img {
+.post .post-image img {
     width: 100%;
     height: auto;
 }
